@@ -1,0 +1,92 @@
+#homebutton{
+  margin-right:36px;
+    background-color:#FF914D;
+    color:white;
+    border-color:#FF914D;
+    font-size:1.2rem;
+    font-weight:bold;
+    margin-right:2%;
+    padding-left:13%;
+    padding-right:13%;
+    padding-top:3%;
+    padding-bottom:3%;
+    display:inline-block;
+    border-radius:10px;
+}
+#homebutton:hover{
+  color: black;
+}
+#homebuttonsec{
+  font-size:1.2rem;
+    font-weight:bold;
+    margin-right:2%;
+    padding-left:13%;
+    padding-right:13%;
+    padding-top:3%;
+    padding-bottom:3%;
+    background-color:white;
+    border-color:#FF914D;
+    color:#FF914D;
+    border-radius:10px;
+}
+#homebuttonsec:hover{
+  background-color:#FF914D;
+  border-color:#FF914D;
+  color:white;
+}
+.mainHeading{
+  font-size: 3.8rem;
+}
+.image{
+    padding-top:3% !important;
+    padding-bottom:13%;
+    width:95% !important;
+    height:110% !important;
+}
+  .column {
+    padding-top:10% !important;
+    padding-left:4% !important;
+    padding-bottom:2% !important;
+    text-align:left;
+    flex: 25%;
+    padding: 20px;
+  }
+ .mainPageHeading{
+  color:#FF914D;
+  font-size:1.2rem;
+ }
+ .mainPageP{
+  font-size:1.2rem;
+ }
+ .deliveryLink{
+  margin-top: 2%;
+ }
+  @media screen and (max-width: 992px) {
+    .column {
+      padding: 2%;
+      flex: 50%;
+      text-align: center;
+      margin-top:1%;
+      margin-left: 8%;
+      margin-right: 2%;
+    }
+    .mainHeading{
+     font-size: 1.6rem;
+    }
+    .mainPageHeading{
+      font-size: 1rem;
+    }
+    .mainPageP{
+      font-size: 1.1rem;
+    }
+    .orangeText{
+      color:#FF914D;
+    }
+    
+    #homebutton{
+      margin-bottom: 2%;
+    }
+    #homebuttonsec{
+      margin-bottom: 2%;
+    }
+    }
