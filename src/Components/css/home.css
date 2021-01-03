@@ -37,6 +37,9 @@
 .mainHeading{
   font-size: 3.8rem;
 }
+.orangeText{
+  color:#FF914D;
+}
 .image{
     padding-top:3% !important;
     padding-bottom:13%;
@@ -79,9 +82,7 @@
     .mainPageP{
       font-size: 1.1rem;
     }
-    .orangeText{
-      color:#FF914D;
-    }
+    
     
     #homebutton{
       margin-bottom: 2%;
